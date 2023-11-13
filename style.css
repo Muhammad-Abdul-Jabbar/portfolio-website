@@ -1,3 +1,10 @@
+body{
+  background-color: #16161a;
+}
+
+
+
+
 nav{
     display: flex;
     justify-content: center;
@@ -48,8 +55,29 @@ a{
     display: none;
   }
 
+.hero{
+margin-top: 50px;
+margin-right: 20%;
+margin-left: 10%;
+}
+
+.topnav{
+  font-size: 30px;
+  text-align: center;
   
-  .hero-rigt{
-    width: 300;
-    height: 20px;
+}
+
+.awsome{
+color: #fffffe;
+font-size: 50px;
+}
+
+a{
+color: #fffffe;
+
+}
+
+a:hover{
+  color: #7f5af0;
+  
 }
