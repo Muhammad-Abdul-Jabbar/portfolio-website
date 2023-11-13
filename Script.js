@@ -6,3 +6,5 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+  document.getElementsByClassName("topnav")[0].src = "";
