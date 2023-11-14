@@ -1,0 +1,13 @@
+img{
+    width: 300px;
+    height: auto;
+}
+
+.hero{
+    display: flex;
+    margin-top: 200px;
+}
+
+.sec1{
+    flex-direction: row;
+}
