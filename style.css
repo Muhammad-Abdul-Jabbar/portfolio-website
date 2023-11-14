@@ -74,13 +74,10 @@ font-size: 50px;
 
 a{
 color: #fffffe;
-
+margin: 20px;
 }
 
-a:hover{
-  color: #7f5af0;
-  gap: 3000px;
-}
+
 
 @media only screen and (max-width: 300px) {
    .topnav{
@@ -117,4 +114,9 @@ a:hover{
 
   .social{
     border: 2px #ffffff solid ;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
   }
