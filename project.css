@@ -61,10 +61,10 @@ a{
 }
 
 
-@media screen and (max-width: 1000px) {
-  img {
+@media screen and (max-width: 600px) {
+  .container {
    width: 200px;
-   height: auto;
+   height: 150;
    justify-content: center;
    display: inline-block;
   }
@@ -94,7 +94,7 @@ a{
 }
 
 .image{
-  width: 4px;
-  height: 250px;
-  
+  width: 400px;
+  height: 200px;
+  box-shadow: 20px #7f5af0;
 }
