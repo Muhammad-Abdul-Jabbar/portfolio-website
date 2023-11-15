@@ -93,5 +93,8 @@ a{
   overflow: hidden;
 }
 
-
-
+.image{
+  width: 4px;
+  height: 250px;
+  
+}
