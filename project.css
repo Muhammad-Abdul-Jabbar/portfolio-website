@@ -3,10 +3,6 @@ padding: 0;
 margin: 0
 }
 
-img{
-    width: 400px;
-    height: auto;
-}
 
 .hero{
     align-items: center;
@@ -96,3 +92,6 @@ a{
 .topnav{
   overflow: hidden;
 }
+
+
+
