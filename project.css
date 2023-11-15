@@ -4,21 +4,15 @@ img{
 }
 
 .hero{
-    margin-top: 500px;
     align-items: center;
     justify-content: center;
     display: flex;
     gap: 40px;
 }
 
-
-a {
-    margin: 20px;
-    font-size: 30px;
+a{
+margin: 20px;
 }
-
-
-
 
 @media screen and (max-width: 1200px) {
     .hero {
@@ -41,4 +35,24 @@ a {
   }
 
   
+.link{
+background-color: #7f5af0;
+font-size: 30px;
+padding: 10px;
+margin-top: 20px;
+display: inline-block;
+border-radius: 2px;
+}
 
+a{
+ width: 30%;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .link{
+    font-size: 30px;
+    padding: 5px;
+    margin-left: 3px;
+  }
+}
