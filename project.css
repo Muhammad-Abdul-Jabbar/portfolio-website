@@ -4,7 +4,7 @@ img{
 }
 
 .hero{
-    margin-top: 200px;
+    margin-top: 500px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -20,9 +20,9 @@ a {
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1200px) {
     .hero {
-     flex-direction: column;
+     flex-direction: column-reverse;
     }
   }
 
@@ -33,3 +33,12 @@ a {
     background-color: #ddd;
     color: black;
   }
+
+  @media screen and (max-width: 1200px) {
+    a {
+    margin-left: 20%;
+    }
+  }
+
+  
+
