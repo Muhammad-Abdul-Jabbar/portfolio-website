@@ -3,9 +3,12 @@ body{
   }
   
   img{
-  width: 400px;
+  width: 700px;
   height: auto;
+  box-shadow: 20px 20px #ff8906;
   }
+
+
   
    .hero a{
       text-decoration: none;
@@ -13,14 +16,13 @@ body{
       color: rgb(255, 255, 254);
       padding: 20px;
       display: inline-block;
-       
   }
   
  p{
     font-size: 30px;
  }
 
- .hero{
+ .hero {
    margin-top: 100px;
    display: flex;
    gap: 20px;
@@ -74,6 +76,7 @@ body{
   a{
   color: #fffffe;
   margin: 20px;
+  text-decoration: none;
   }
   
   
@@ -105,3 +108,19 @@ body{
       background-color: #ddd;
       color: black;
     }
+
+    @media only screen and (max-width: 1000px) {
+       .hero {
+       flex-direction: column;
+       }
+     }
+
+     @media only screen and (max-width: 400px) {
+        img {
+            width: 300px;
+            height: auto;
+        }
+      }
+
+
+   
