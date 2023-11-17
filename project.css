@@ -8,25 +8,42 @@ body{
   box-shadow: 20px 20px #ff8906;
   }
 
-
+  .reversed{
+    display: flex;
+  }
   
-   .hero a{
+ .hero  a {
       text-decoration: none;
       background-color: rgb(127, 90, 240);
       color: rgb(255, 255, 254);
       padding: 20px;
       display: inline-block;
   }
+
+  .hero1  a {
+    text-decoration: none;
+    background-color: rgb(127, 90, 240);
+    color: rgb(255, 255, 254);
+    padding: 20px;
+    display: inline-block;
+}
   
  p{
     font-size: 30px;
  }
 
- .hero {
+ .hero  {
    margin-top: 100px;
    display: flex;
    gap: 20px;
  }
+
+   .hero1 {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+}
+ 
   
   @media screen and (max-width: 700px) {
     .topnav a:not(:first-child) {display: none;}
@@ -123,4 +140,8 @@ body{
       }
 
 
-   
+      @media only screen and (max-width: 1000px) {
+        .hero1 {
+        flex-direction: column-reverse;
+        }
+      }
