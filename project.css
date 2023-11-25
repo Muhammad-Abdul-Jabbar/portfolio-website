@@ -6,6 +6,8 @@ body{
   width: 700px;
   height: auto;
   box-shadow: 20px 20px #ff8906;
+ transition: 1s;
+
   }
 
   .reversed{
@@ -129,6 +131,7 @@ body{
     @media only screen and (max-width: 1000px) {
        .hero {
        flex-direction: column;
+      
        }
      }
 
@@ -144,4 +147,18 @@ body{
         .hero1 {
         flex-direction: column-reverse;
         }
+      }
+      @media only screen and (max-width: 1000px) {
+        p {
+        margin-top: 0;
+        }
+      }
+
+      img:hover{
+        transform: scale(1.1);
+        z-index: 1;
+      }
+
+      .hero{
+        gap: 150px;
       }
