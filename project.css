@@ -1,5 +1,11 @@
 body{
     background-color: #16161a;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  
+  a{
+    transition: 1s;
   }
   
   img{
@@ -155,6 +161,13 @@ body{
         margin-top: 0;
         }
       }
+
+      @media only screen and (max-width: 1000px) {
+        .topnav a {
+      gap: 200px;
+        }
+      }
+
 
       img:hover{
         transform: scale(1.1);
